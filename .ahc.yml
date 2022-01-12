@@ -3,3 +3,5 @@ command: python main.py
 
 env:
   APP_NAME: ozan
+  PYTHONUNBUFFERED: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
