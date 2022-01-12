@@ -1,1 +1,2 @@
-print("Hello, world!")
+print("Mello, world!")
+print("Hello from AHC runner!")
