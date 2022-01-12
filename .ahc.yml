@@ -1,5 +1,5 @@
 image: python:3-alpine
-command: echo "Hello world"
+command: python main.py
 
 env:
   APP_NAME: ozan
