@@ -1,7 +1,6 @@
 image: cengwins/ahc-uhd-image
-command: /bin/sh -c "cd /usr/local/src/ahc && python3 tests/PhysicalLayers/testUsrp.py"
+command: /bin/sh -c "cd /usr/local/src/ahc && git remote set-url origin https://github.com/oznakn/ahc && git fetch -a && git pull && python3 tests/PhysicalLayers/testUsrp.py"
 
 env:
-  APP_NAME: ozan
   PYTHONUNBUFFERED: "1"
   PYTHONDONTWRITEBYTECODE: "1"
