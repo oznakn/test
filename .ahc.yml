@@ -1,5 +1,12 @@
 image: cengwins/ahc-uhd-image
-command: /bin/sh -c "cd /usr/local/src/ahc && git remote set-url origin https://github.com/oznakn/ahc && git fetch -a && git pull && python3 tests/PhysicalLayers/testUsrp.py"
+command: /bin/sh -c "
+  cd /usr/local/src/ahc && 
+  git remote set-url origin https://github.com/oznakn/ahc &&
+  git config user.name "Ozan Akın" &&
+  git config user.email "ozn.akn@gmail.com" && 
+  git fetch -a && 
+  git pull && 
+  python3 tests/PhysicalLayers/testUsrp.py"
 
 env:
   PYTHONUNBUFFERED: "1"
