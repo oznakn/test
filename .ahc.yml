@@ -1,7 +1,5 @@
 image: cengwins/ahc-uhd-image
-command: /bin/sh -c "
-  cd /usr/local/src/ahc &&
-  python3 tests/PhysicalLayers/testUsrp.py"
+command: python3 main.py
 
 env:
   PYTHONUNBUFFERED: "1"
