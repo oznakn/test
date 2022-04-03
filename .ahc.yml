@@ -1,2 +1,5 @@
 image: .
 command: python3 test.py
+
+runs:
+  - name: run1
