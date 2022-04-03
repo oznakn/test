@@ -4,4 +4,4 @@ command: python3 test.py
 experiment:
   runs:
     - name: run1
-      sampling_count: 1
+      samplingCount: 1
