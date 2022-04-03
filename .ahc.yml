@@ -5,5 +5,5 @@ experiment:
   runs:
     - name: run1
       topology: name
-      sampling_count: 1
+      sampling_count: 3
 
