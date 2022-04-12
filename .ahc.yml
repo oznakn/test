@@ -1,8 +1,0 @@
-image: .
-command: python3 test.py
-
-experiment:
-  runs:
-    - name: run1
-      topology: name
-      sampling_count: 3
