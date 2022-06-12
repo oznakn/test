@@ -3,7 +3,7 @@ import time
 
 print("Hello, world!")
 
-for i in range(4):
+for i in range(20):
     print("State:", i)
     time.sleep(1)
 
