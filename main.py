@@ -1,5 +1,10 @@
 import uuid
+import time
 
 print("Hello, world!")
 
-open(f"{str(uuid.uuid4())}.txt", "w").close()
+for i in range(4):
+    print("State:", i)
+    time.sleep(1)
+
+# open(f"{str(uuid.uuid4())}.txt", "w").close()
