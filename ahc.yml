@@ -1,5 +1,14 @@
 image: .
 command: python3 main.py
-
-# files:
-#  - "*.txt"
+topology:
+  nodes:
+    - id: 0
+      x: -424
+      'y': -185.71875
+    - id: 1
+      x: -811
+      'y': -373.21875
+  edges:
+    - from: 1
+      to: 0
+      id: 0
